@@ -1,0 +1,26 @@
+body{
+  margin:none; 
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo{
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.header_text{
+  width: 17em;
+  height: 5em;
+}
