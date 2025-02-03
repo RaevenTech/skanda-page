@@ -3,7 +3,7 @@ body{
   user-select: none;
   box-sizing: border-box;
 }
-
+/* HEADER STYLING */
 .header {
   width: 100%;
   display: flex;
@@ -24,3 +24,5 @@ body{
   width: 17em;
   height: 5em;
 }
+
+/* HEADER STYLING END */
