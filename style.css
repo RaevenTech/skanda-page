@@ -37,6 +37,17 @@ body{
   height: 20px;
 }
 
+.header_list{
+  margin-top: 2em;
+  list-style: none;
+  padding-left: 7px;
+}
+
+.header_list_item{
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
 /* HEADER STYLING END */
 /*MAIN STYLING*/
 #main{
