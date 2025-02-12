@@ -2,6 +2,7 @@
 
 :root{
   --ska_blue: #0097DB;
+  --ska_grey: #6B6C6E;
 }
 
 body{
@@ -10,20 +11,22 @@ body{
   box-sizing: border-box;
   font-family:'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
-  color: #6B6C6E;
+  color: var(--ska_grey);
   display: flex;
 }
 /* HEADER STYLING */
 #header{
-  border: 2px solid black;
   width: 12%;
   height: 100vh;
   position:static;
+  border-right: #6B6C6E;
 }
 
 .header_logo_img_text{
   display: flex;
   align-items: baseline;
+  padding-top: .5em;
+  padding-left: .5em;
 }
 
 .header_logo{
@@ -40,19 +43,31 @@ body{
 .header_list{
   margin-top: 2em;
   list-style: none;
-  padding-left: 7px;
+  padding-left: 0.1px;
 }
 
 .header_list_item{
   font-size: 1.2rem;
-  padding-bottom: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  color: #9a9a9c;
+}
+
+.header_list_item:hover{
+  color: whitesmoke;
+  background: var(--ska_blue);
+}
+
+.icon{
+  color: #0097DB;
 }
 
 /* HEADER STYLING END */
 /*MAIN STYLING*/
 #main{
   width: 88%;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   margin: 0px;
   text-align: center;
 }
