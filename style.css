@@ -19,7 +19,7 @@ body{
   width: 12%;
   height: 100vh;
   position:static;
-  border-right: #6B6C6E;
+  box-shadow: 7px 0 9px -7px #6B6C6E;
 }
 
 .header_logo_img_text{
