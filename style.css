@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root{
   --ska_blue: #0097DB;
@@ -12,8 +11,7 @@ body{
   margin:0px; 
   user-select: none;
   box-sizing: border-box;
-  font-family:'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
+  font-family:'Roboto Condensed','Trebuchet MS', Arial, sans-serif;
   color: var(--ska_grey);
   
 }
@@ -24,6 +22,10 @@ h2{
 
 p{
   margin: 0px;
+}
+
+a{
+  text-decoration: none;
 }
 
 /* -----------------------HEADER STYLING -----------------*/
