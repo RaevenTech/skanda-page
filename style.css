@@ -28,39 +28,39 @@ a{
   text-decoration: none;
 }
 
-/* -----------------------HEADER STYLING -----------------*/
-#header{
+/* -----------------------NAVBAR STYLING -----------------*/
+#navbar{
   width: 140px;
   height: 100vh;
   position:fixed;
   box-shadow: 7px 0 9px -7px #6B6C6E;
 }
 
-.header_logo_img_text{
+.nav_logo_img_text{
   display: flex;
   align-items: baseline;
   padding-top: .5em;
   padding-left: .5em;
 }
 
-.header_logo{
+.nav_logo{
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 
-.header_logo_text{
+.nav_logo_text{
   width: 70px;
   height: 20px;
 }
 
-.header_list{
+.nav_list{
   margin-top: 2em;
   list-style: none;
   padding-left: 0.1px;
 }
 
-.header_list_item{
+.nav_list_item{
   font-size: 1.2rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -68,7 +68,7 @@ a{
   color: #9a9a9c;
 }
 
-.header_list_item:hover{
+.nav_list_item:hover{
   color: whitesmoke;
   background: var(--ska_blue);
   text-shadow: 1px 1px 2px 5px #6B6C6E;
@@ -78,7 +78,7 @@ a{
   color: #0097DB;
 }
 
-/* HEADER STYLING END */
+/* NAVBAR STYLING END */
 
 /*-----------------MAIN STYLING ---------------------------*/
 #main{
